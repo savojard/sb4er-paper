@@ -6,16 +6,16 @@ tags:
   - Anti-Microbial Resistance
 authors:
   - name: Castrense Savojardo
-    orcid: 0000-0000-0000-0000
+    orcid: 0000-0002-7359-0633
     affiliation: 1
   - name: Pier Luigi Martelli
-    orcid: 0000-0000-0000-0000
+    orcid: 0000-0002-0274-5669
     affiliation: 1
   - name: Giulia Babbi
-    orcid: 0000-0000-0000-0000
+    orcid: 0000-0002-9816-4737
     affiliation: 1
   - name: Marco Anteghini
-    orcid: 0000-0000-0000-0000
+    orcid: 0000-0003-2794-3853
     affiliation: 2
   - name: Matteo Manfredi
     orcid: 0000-0000-0000-0000
@@ -24,16 +24,16 @@ authors:
     orcid: 0000-0000-0000-0000
     affiliation: 1
   - name: Emidio Capriotti
-    orcid: 0000-0000-0000-0000
+    orcid: 0000-0002-2323-0963
     affiliation: 1
   - name:  Jumamurat R. Bayjanov
     orcid: 0000-0002-0637-9950
     affiliation: 3
   - name: Margherita Mutarelli
-    orcid: 0000-0000-0000-0000
+    orcid: 0000-0002-2168-5059
     affiliation: 4
   - name: Rita Casadio
-    orcid: 0000-0000-0000-0000
+    orcid: 0000-0002-7462-7039
     affiliation: 1
 affiliations:
  - name: Biocomputing Group, Depertment of Pharmacy and Biotechnology, University of Bologna, Italy
