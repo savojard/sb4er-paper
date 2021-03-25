@@ -42,9 +42,9 @@ affiliations:
    index: 2
  - name: Lifeglimmer GmbH, Berlin, Germany
    index: 3
- - name: Department of Medical Microbiology, University Medical Center Utrecht, Utrecht, The Netherlands
+ - name: Center fo Molecular and Biomolecular Informatics, Radboudumc, Nijmegen, The Netherlands
    index: 4
- - name: Telethon Institute of Genetics and Medicine, Pozzuoli, Naples, Italy
+ - name: Istituto di Scienze Applicate e Sistemi Intelligenti "Eduardo Caianiello" ISASI-CNR
    index: 5
  - name: Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies of the National Research Council, Bari, Italy
    index: 6
@@ -61,13 +61,13 @@ Computational analysis of genomes can substantially help the elucidation of biol
 
 Tools, data, workflows for the study of viral and bacterial genomes have been implemented during the years but they are mostly spread in different locations and they still lacks an organization into conceptual maps implementable as bioinformatics workflows. Many of these resources are available within the ELIXIR infrastructure.
 
-ELIXIR Service Bundles (https://elixir-europe.org/services/service-bundles) aim at grouping tools, services, people and training materials devoted to particular use scenarios. These resources are organized providing information about their interoperability and applicability to specific use cases. The ultimate goal of a Service Bundle if to simplify the access to resources available for a specific research field and to help end users in the proper selection of tools with respect to a specific scientific need. Moreover, Service Bundles can be used to identify potential gaps to be filled in a given research area.
+ELIXIR Service Bundles (https://elixir-europe.org/services/service-bundles) aim at grouping tools, services, people and training materials devoted to particular use scenarios. These resources are organized providing information about their interoperability and applicability to specific use cases. The ultimate goal of a Service Bundle is to simplify the access to resources available for a specific research field and to help end users in the proper selection of tools with respect to a specific scientific need. Moreover, Service Bundles can be used to identify potential gaps to be filled in a given research area.
 
-Here, we describe the outcomes of a project we carried out during the BioHackathon Europe 2020 virtual event. The project aimed to build a Service Bundle for Epidemic Response (SB4ER), namely a collection of tools and resources for the genomic analysis of new pathogens (either bacteria and viruses) and their relation to hosts (humans, animals, plants). Mainly focusing on the portfolio of ELIXIR resources (as available on bio.tools), the SB4ER collects more than 140 tools endowed with comprehensive annotations, allowing users to select the most appropriate tools and databases. Moreover, resources are organized as concept maps according to five possible use scenarios, which formally define scientific needs in the context of the study of a new pathogen.
+Here, we describe the outcomes of a project we carried out during the BioHackathon Europe 2020 virtual event. The project aimed to build a Service Bundle for Epidemic Response (SB4ER), namely a collection of tools and resources for the genomic analysis of new pathogens (both bacteria and viruses) and their relation to hosts (humans, animals, plants). Mainly focusing on the portfolio of ELIXIR resources that are available on bio.tools, the SB4ER collects more than 140 tools endowed with comprehensive annotations, allowing users to select the most appropriate tools and databases. Moreover, resources are organized as concept maps according to five possible use scenarios, which formally define scientific needs in the context of the study of a new pathogen.
 
 # SB4ER: Use Scenarios Definition and Resources Collection
 
-In the first part of the project, we focused on the definition of common use scenarios arinsing during the genomic analysis of new pathogens. Three general scenarios were identified and defined, corresponding to basic tasks that are preliminary to all subsequent analyses:
+In the first part of the project, we focused on the definition of common use scenarios that arise during the genomic analysis of new pathogens. Three general scenarios were identified and defined, corresponding to basic tasks that are preliminary to all subsequent analyses:
 
 - Primary analysis of genomic sequence of new pathogen.
 - Phylogenetic analysis.
@@ -108,7 +108,7 @@ Use scenarios and relative resources associated were organized in concept maps, 
 ![Concept map for primary analysis of pathogen genome sequence.](./sbmap1.png)
 
 he first concept map (Figure 1) describes the basic steps for genome assembly starting
-from NGS data, gene prediction and functional/structural annotation of encoded proteins.
+from next generation sequencing (NGS) data, gene prediction and functional/structural annotation of encoded proteins.
 Thus, starting from the raw nucleic acid sequence, the concept map firstly include canonical
 pre-processing steps such as quality check and trimming, then genome assembly, to obtain
 a genome report. The genome obtained may be deposited in specialized databases. In this
@@ -132,7 +132,7 @@ in which, having as input genes and a list of genomes, core genes are identified
 are defined as genes present in all the strains of a species. These genes are then used to build
 multiple sequence alignments, from which super alignments are obtained via filtering with
 specific tools. From super alignments, phylogenetic trees are reconstructed. Moreover, as a
-final step, tools for phylogenetic trees visualization are proposed.
+final step, tools for phylogenetic tree visualizations are proposed.
 
 ## Use Scenario 3: Analysis and annotation of variants
 
@@ -149,7 +149,7 @@ common reference genome. This information is usually stored into a file format c
 (Variant Call Format).
 
 From here two main analyses can be performed. The first consists of retracing the origin of
-the mutations, performing an intra-species phylogenetic analysis. The second is to classify
+the mutations, by performing an intra-species phylogenetic analysis. The second is to classify
 the different variants that we identified, and for non-synonymous variations occurring on
 protein-coding regions of the genome, we can further study their effect on the stability and
 the function of the coded protein.
@@ -163,7 +163,7 @@ from the genome sequence, highlighting the presence of genes or variations relat
 phenotypes. This is realized having as starting point nucleic acid sequencing data and
 genes/genome, possibly derived via the application of the first map. All these input data are
 used to filter out antimicrobial resistance-related genes, using the information obtained from
-ad hoc databases. These selected genes are analyzed in terms of gene location (plasmid or
+different databases. These selected genes are analyzed in terms of gene's origin (plasmid or
 chromosome) and for the presence of mutations, both known or novel, for which the possible
 impact may be predicted. All these information are finally aggregated to obtain a report for
 antimicrobial resistance referencing terms from the Antibiotic Resistance Ontology (ARO).
@@ -175,15 +175,15 @@ antimicrobial resistance referencing terms from the Antibiotic Resistance Ontolo
 The preliminary work on vaccine/drug design (Figure 5) that is described in this use scenario
 starts from two main sources of data: i) the assembled and annotated genome, alongside a
 list of coded protein sequences and ii) a structure database (e.g. PDB) that can be used for
-comparative protein modelling. Exposed proteins can be then detected and epitopes identified.
+comparative protein modelling. Secreted proteins can be then detected and epitopes identified.
 The latter can be used in the development of new drugs and vaccines for the pathogen.
 
 # Discussion
 
-During the Biohackathon Europe 2020, we completed the release of a Service Bundle for
+During the BioHackathon Europe 2020, we completed the release of a Service Bundle for
 Epidemic Response. We were able to identify 5 different use scenarios representing challenges
 that biologists may face when studying a new pathogen. We then translated them into concept
-maps that will guide them while providing a list of useful databases and tools for performing
+maps that will guide biologist while providing a list of useful databases and tools for performing
 all of the different tasks in an automated way. We think that SB4ER may be a powerful tool
 for performing preliminary and early analysis of newly discovered pathogens. The step-by-step
 protocols, endowed with extensive and complete annotations will speed up the analysis, allowing
@@ -198,7 +198,7 @@ strong and quick response against new pathogens. At the same time, the generic s
 need to cover more operations in order to help to retrieve all the data needed by the specific
 ones.
 
-Efforts will be also devoted to periodically update the list of tools and resources, to be aligned with new releases and updates.
+Efforts will be also devoted to periodically update the list of tools and resources to be aligned with new releases and updates.
 
 # GitHub repositories and data repositories
 
