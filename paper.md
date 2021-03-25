@@ -16,7 +16,7 @@ authors:
     affiliation: 1
   - name: Marco Anteghini
     orcid: 0000-0003-2794-3853
-    affiliation: 2
+    affiliation: 2, 3
   - name: Matteo Manfredi
     orcid: 0000-0000-0000-0000
     affiliation: 1
@@ -38,12 +38,14 @@ authors:
 affiliations:
  - name: Biocomputing Group, Depertment of Pharmacy and Biotechnology, University of Bologna, Italy
    index: 1
- - name: LifeGlimmer GmbH, Berlin, Germany
+ - name: Laboratory of Systems and Synthetic Biology, Wageningen University & Research, Wageningen WE, The Netherlands
    index: 2
- - name: Department of Medical Microbiology, University Medical Center Utrecht, Utrecht, The Netherlands
+ - name: Lifeglimmer GmbH, Berlin, Germany
    index: 3
- - name: Telethon Institute of Genetics and Medicine, Pozzuoli, Naples, Italy
+ - name: Department of Medical Microbiology, University Medical Center Utrecht, Utrecht, The Netherlands
    index: 4
+ - name: Telethon Institute of Genetics and Medicine, Pozzuoli, Naples, Italy
+   index: 5
 date: 29 January 2020
 bibliography: paper.bib
 ---
