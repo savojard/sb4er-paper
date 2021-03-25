@@ -34,7 +34,7 @@ authors:
     affiliation: 4
   - name: Rita Casadio
     orcid: 0000-0002-7462-7039
-    affiliation: 1
+    affiliation: 1, 6
 affiliations:
  - name: Biocomputing Group, Depertment of Pharmacy and Biotechnology, University of Bologna, Italy
    index: 1
@@ -46,6 +46,8 @@ affiliations:
    index: 4
  - name: Telethon Institute of Genetics and Medicine, Pozzuoli, Naples, Italy
    index: 5
+ - name: Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies of the National Research Council, Bari, Italy
+   index: 6
 date: 29 January 2020
 bibliography: paper.bib
 ---
